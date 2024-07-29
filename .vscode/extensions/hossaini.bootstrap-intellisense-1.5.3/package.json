@@ -1,0 +1,77 @@
+{
+	"name": "bootstrap-intellisense",
+	"displayName": "Bootstrap IntelliSense",
+	"version": "1.5.3",
+	"description": "Bootstrap IntelliSense: Enhance Bootstrap development with CSS class autocompletion for efficient coding in Visual Studio Code.",
+	"categories": [
+		"Linters",
+		"Snippets"
+	],
+	"keywords": [
+		"bootstrap",
+		"bootstrap5",
+		"css",
+		"intellisense",
+		"autocomplete",
+		"vscode"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hossaini310/bootstrap-intellisense"
+	},
+	"license": "MIT",
+	"publisher": "hossaini",
+	"main": "./src/extension.js",
+	"scripts": {
+		"deploy": "vsce publish",
+		"lint": "eslint .",
+		"pretest": "npm run lint",
+		"test": "node ./src/test/runTest.js"
+	},
+	"contributes": {
+		"icons": {
+			"bootstrap-icon": {
+				"description": "Bootstrap Icon",
+				"default": {
+					"fontPath": "./assets/bootstrap-icon-font.woff",
+					"fontCharacter": "B"
+				}
+			}
+		}
+	},
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"dependencies": {
+		"axios": "^1.7.2",
+		"node-fetch": "^2.6.11"
+	},
+	"devDependencies": {
+		"@vscode/test-electron": "^2.2.2",
+		"eslint": "^8.33.0",
+		"mocha": "^10.1.0"
+	},
+	"engines": {
+		"vscode": "^1.67.1"
+	},
+	"icon": "assets/icons/icon.png",
+	"configurationDefaults": {
+		"bootstrapIntelliSense.version": "Bootstrap v5.3"
+	},
+	"sponsor": {
+		"url": "https://ko-fi.com/hossaini"
+	},
+	"__metadata": {
+		"id": "7846dad3-dea1-40d3-a7f2-da368838d5fb",
+		"publisherId": "5aea1c1b-e108-4f19-8e0e-4f1029e56107",
+		"publisherDisplayName": "Hosain Hossaini",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1721314343660,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
+}

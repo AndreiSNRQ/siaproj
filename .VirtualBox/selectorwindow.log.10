@@ -1,0 +1,20 @@
+00:00:00.503655 VirtualBox GUI VM Selector Window 7.0.14 r161095 win.amd64 (Jan 15 2024 14:59:30) release log
+00:00:00.503657 Log opened 2024-05-24T12:00:35.244435500Z
+00:00:00.503658 Build Type: release
+00:00:00.503661 OS Product: Windows 11
+00:00:00.503662 OS Release: 10.0.22631
+00:00:00.503663 OS Service Pack: 
+00:00:00.516763 DMI Product Name: BOD-WXX9
+00:00:00.522341 DMI Product Version: M1010
+00:00:00.522368 Firmware type: UEFI
+00:00:00.522805 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.522842 Host RAM: 7991MB (7.8GB) total, 662MB available
+00:00:00.522846 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.522847 Process ID: 12096
+00:00:00.522848 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.523028 Qt version: 5.15.2
+00:00:00.523785 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.546407 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:02.167136 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:10:13.599438 GUI: UICommon: Handling aboutToQuit request..
+00:10:14.293310 GUI: UICommon: aboutToQuit request handled!

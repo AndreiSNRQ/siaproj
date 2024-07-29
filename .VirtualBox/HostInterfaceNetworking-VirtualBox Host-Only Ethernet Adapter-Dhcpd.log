@@ -1,0 +1,24 @@
+00:00:00.041965 VirtualBox DHCP Server 7.0.14 r161095 win.amd64 (Jan 15 2024 14:59:13) release log
+00:00:00.041969 Log opened 2024-05-19T18:23:36.430438800Z
+00:00:00.041970 Build Type: release
+00:00:00.041974 OS Product: Windows 11
+00:00:00.041975 OS Release: 10.0.22631
+00:00:00.041976 OS Service Pack: 
+00:00:00.475132 DMI Product Name: BOD-WXX9
+00:00:00.490315 DMI Product Version: M1010
+00:00:00.490357 Firmware type: UEFI
+00:00:00.490880 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.490967 Host RAM: 7991MB (7.8GB) total, 1890MB available
+00:00:00.490970 Executable: C:\Program Files\Oracle\VirtualBox\VBoxNetDHCP.exe
+00:00:00.490971 Process ID: 13760
+00:00:00.490972 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.491118 --config:  HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+00:00:00.491129 --comment: HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+00:00:00.767709 IP address:   192.168.56.100/24
+00:00:00.767731 Address pool: 192.168.56.101 - 192.168.56.254
+00:00:00.767803 MAC address is not specified: will use generated MAC 08:00:27:3b:b5:35
+00:00:00.767828 Db::i_enterFixedAddressAssignment: 08:00:27:3b:b5:35: 192.168.56.100
+00:00:00.767834 loading leases from C:\Users\Andrei\.VirtualBox\HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter-Dhcpd.leases
+00:00:00.768092 Runtime error opening 'C:\Users\Andrei\.VirtualBox\HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter-Dhcpd.leases' for reading VERR_FILE_NOT_FOUND (File not found.)
+00:00:00.867750 SUP: Opened VMMR0.r0 (C:\Program Files\Oracle\VirtualBox\VMMR0.r0) at 0xXXXXXXXXXXXXXXXX loaded by the native ring-0 loader.
+00:00:00.867797 SUP: windbg> .reload /f C:\Program Files\Oracle\VirtualBox\VMMR0.r0=0xXXXXXXXXXXXXXXXX
